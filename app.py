@@ -9,6 +9,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmltemplate import css, bot_template, user_template
 from langchain.llms import HuggingFaceHub
+load_dotenv()
 
 def get_pdf_text(pdf_docs):
     text = ""
